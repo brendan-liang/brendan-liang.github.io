@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --text: #e9e6ea;
+    --background: #292c29;
+    --primary: #b3bfb0;
+    --secondary: #1e2423;
+    --accent: #80937b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background: var(--background);
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.title {
+    font-size: 150px;
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    height: 400px;
+    top: calc(50% - 200px);
+}
+
+.right-align {
+    right: 50px;
+    text-align: right;
+}
+
+.left-align {
+    left: 50px;
+    text-align: left;
+}
+
+.head {
+    font-size: 100px;
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    height: 240px;
+    top: calc(50% - 120px);
+}
+
+.subhead {
+    font-size: 50px;
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    height: 240px;
+    top: calc(50% - 25px);
+}
+
+.panel {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+}
+
+.hidden-slide {
+    opacity: 0;
+    transform: translateX(500px);
+    transition: all cubic-bezier(.5,0,0,1) 3s;
+}
+
+.shown-slide {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden-slide-2 {
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: all cubic-bezier(.5,0,0,1) 3s;
+}
+
+.shown-slide-2 {
+    opacity: 1;
+    transform: translateX(0);
+}
