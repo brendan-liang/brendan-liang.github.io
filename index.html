@@ -2,20 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>brendan.liang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
-    <title>brendan liang.</title>
 </head>
 <body>
-    <section class="panel">
-        <h1 class="title hidden-slide right-align">brendan<br>liang</h1>
-        <h2 class="subhead hidden-slide-2 left-align" style="transition-delay: 1s">
-            <span class="">web developer</span> wannabe
-        </h2>
-    </section>
-    <section class="panel">
-        <h2 class="head hidden-slide-2 left-align">web<br>developer</h2>
-    </section>
+    <div id="nav">
+        <div id="nav-content">
+            <a id="nav-home" href="#">brendan.<br>liang.</a>
+            <a href="#about" class="nav-button">About</a>
+            <a href="#videos" class="nav-button">Videos</a>
+            <a href="#about" class="nav-button">Websites</a>
+            <a href="#about" class="nav-button">Contact</a>
+        </div>
+    </div>
+    <div id="landing-block" class="block">
+        <div id="landing-text-area">
+            <h1>Hi, my name<br>is <span>Brendan</span></h1>
+            <h3>Just another <span class="typewrite" data-typewrite-content="Web Development,Game Development,Video Editing,Thumbnail Designing"></span>enjoyer.</h3>
+        </div>
+        <img id="landing-img" src="assets/portrait.png">
+        
+    </div>
+    <div id="about-block" class="block block-dynamic">
+        <div id="about" class="pointer"></div>
+        <div class="hoz-center">
+            <h1><span>About</span></h1>
+            <span class="text-slab">
+                I'm a high school student from Australia, with a deep interest in computers and everything to do with them.
+                I began <a href="#videos">editing videos</a> for school projects and my friends' gaming montages in 2021, and began learning programming off of YouTube in 2020.
+                Besides those, I'm also a fiend for ultimate frisbee, videogames, bubble tea, and food.<br>
+                <br>
+                Although I haven't finished many projects, I'm still enjoying the experience of learning all about <a href="#websites">web development</a>, game development, video editing,
+                and more recently, photography.<br>
+                <br><br>
+                <i>"You're starting another project? What happened to that project from a month ago?" - Everyone who knows me</i>
+            </span>
+        </div>
+    </div>
+    <div id="videos-block" class="block">
+        <div id="videos" class="pointer"></div>
+        <div id="videos-title">
+            <h1><span>Videos</span></h1>
+            <span class="text-slab">A collection of public videos I've produced (mostly gaming montages)</span>
+        </div>
+        <div id="video-cards-container">
+            <div id="video-cards-wrap">
+                <div class="video-card">
+                    <a class="video-card-thumbnail-wrap" target="_blank" href="https://www.youtube.com/watch?v=v4Cibv4kSXQ">
+                        <div class="video-card-thumbnail-shadow"></div>
+                        <div class="video-card-thumbnail" style="background-image: url('https://i.ytimg.com/vi_webp/v4Cibv4kSXQ/maxresdefault.webp');">
+                            <div class="video-card-thumbnail-shine"></div>
+                        </div>
+                    </a>
+                    <div class="video-card-text">
+                        <h4 class="video-card-head"><span>Cupid</span> <span>Edited for <a href="https://www.youtube.com/@JaspVAL" target="_blank">Jasp</a></span></h4>
+                        <h5 class="video-card-date">30/08/2023</h5>
+                        <div class="video-card-body">
+                            Valorant montage for my friend <a href="https://www.youtube.com/@JaspVAL" target="_blank">@Jasp</a><br>
+                            <br>Editing + thumbnail by <a href="https://www.youtube.com/@aleexlol" target="_blank">me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <a class="video-card-thumbnail-wrap" target="_blank" href="https://www.youtube.com/watch?v=-AHnIyUUV9U">
+                        <div class="video-card-thumbnail-shadow"></div>
+                        <div class="video-card-thumbnail" style="background-image: url('https://i.ytimg.com/vi/-AHnIyUUV9U/maxresdefault.jpg?v=64257b74');">
+                            <div class="video-card-thumbnail-shine"></div>
+                        </div>
+                    </a>
+                    <div class="video-card-text">
+                        <h4 class="video-card-head"><span>Enemy</span> <span>Edited for <a href="https://www.youtube.com/@JaspVAL" target="_blank">Jasp</a></span></h4>
+                        <h5 class="video-card-date">31/03/2023</h5>
+                        <div class="video-card-body">
+                            Valorant montage for my friend <a href="https://www.youtube.com/@JaspVAL" target="_blank">@Jasp</a><br>
+                            <br>Editing + thumbnail by <a href="https://www.youtube.com/@aleexlol" target="_blank">me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <a class="video-card-thumbnail-wrap" target="_blank" href="https://www.youtube.com/watch?v=iJC_KeetqNM">
+                        <div class="video-card-thumbnail-shadow"></div>
+                        <div class="video-card-thumbnail" style="background-image: url('https://i.ytimg.com/vi_webp/iJC_KeetqNM/maxresdefault.webp');">
+                            <div class="video-card-thumbnail-shine"></div>
+                        </div>
+                    </a>
+                    <div class="video-card-text">
+                        <h4 class="video-card-head"><span>Wyatts</span> <span>Edited for <a href="https://www.youtube.com/@aboving3339" target="_blank">aboving</a></span></h4>
+                        <h5 class="video-card-date">05/07/2022</h5>
+                        <div class="video-card-body">
+                            Minecraft (PvP) montage for my friend <a href="https://www.youtube.com/@aboving3339" target="_blank">@aboving</a><br>
+                            <br>Editing + thumbnail by <a href="https://www.youtube.com/@aleexlol" target="_blank">me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <a class="video-card-thumbnail-wrap" target="_blank" href="https://www.youtube.com/watch?v=71kWzoqohv0">
+                        <div class="video-card-thumbnail-shadow"></div>
+                        <div class="video-card-thumbnail" style="background-image: url('https://i.ytimg.com/vi_webp/71kWzoqohv0/maxresdefault.webp');">
+                            <div class="video-card-thumbnail-shine"></div>
+                        </div>
+                    </a>
+                    <div class="video-card-text">
+                        <h4 class="video-card-head"><span>Levitating</span> <span>Edited for <a href="https://www.youtube.com/@JaspVAL" target="_blank">Jasp</a></span></h4>
+                        <h5 class="video-card-date">12/07/2021</h5>
+                        <div class="video-card-body">
+                            My first big gaming montage<br><br>Minecraft (PvP) montage for my friend <a href="https://www.youtube.com/@JaspVAL" target="_blank">@Jasp</a><br>
+                            <br>Editing + thumbnail by <a href="https://www.youtube.com/@aleexlol" target="_blank">me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="video-cards-fade"></div>
+        </div>
+    </div>
+    <div id="websites-block" class="block">
+        
+    </div>
+    <div id="disclaimer-block" class="block">
+        This website is still under development!
+    </div>
 </body>
 </html>
